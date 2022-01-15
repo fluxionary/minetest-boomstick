@@ -8,3 +8,8 @@ gives the player a stick which triggers tnt explosions. right-click to configure
 * `/giveme boomstick:node 99`
 
 gives the player nodes which should be unbreakable
+
+LICENSE:
+CODE: AGPL
+MEDIA: 
+    boomstick_stick.png CC0 - thanks FrostRanger!

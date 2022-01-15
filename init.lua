@@ -21,7 +21,7 @@ end
 
 minetest.register_tool("boomstick:stick", {
     description = "boom stick",
-    inventory_image = "default_stick.png",
+    inventory_image = "boomstick_stick.png",
     range = 20,
     liquids_pointable = true,
     groups = {not_in_creative_inventory = 1},
@@ -67,7 +67,7 @@ minetest.register_on_player_receive_fields(function(player, formname, fields)
     if fields.damage_radius then
         meta:set_int("damage_radius", tonumber(fields.damage_radius) or damage_radius)
     end
-    if fields.ignore_on_blast ~= nil then
+    if fields.disable_drops ~= nil then
         meta:set_string("disable_drops", (fields.disable_drops == "true") and "1" or "")
     end
     if fields.explode_center ~= nil then
