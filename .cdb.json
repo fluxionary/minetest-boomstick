@@ -1,0 +1,12 @@
+{
+    "type": "MOD",
+    "name": "boomstick",
+    "title": "boomstick",
+    "dev_state": "BETA",
+    "license": "AGPL-3.0-or-later",
+    "media_license": "CC-BY-SA-4.0",
+    "repo": "https://github.com/fluxionary/minetest-boomstick.git",
+    "website": "https://github.com/fluxionary/minetest-boomstick",
+    "issue_tracker": "https://github.com/fluxionary/minetest-boomstick/issues",
+    "short_description": "hello, can you tell me what i am?",
+}
