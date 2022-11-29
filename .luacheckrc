@@ -650,6 +650,7 @@ stds.boomstick = {
 		"boomstick",
 	},
 	read_globals = {
+		"fmod",
 		"tnt",
 	},
 }

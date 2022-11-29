@@ -1,3 +1,5 @@
+boomstick = fmod.create()
+
 local function right_click(itemstack, placer, pointed_thing)
 	local meta = itemstack:get_meta()
 	local formspec = (
