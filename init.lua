@@ -90,10 +90,3 @@ minetest.register_node("boomstick:node", {
 	groups = { not_in_creative_inventory = 1, dig_immediate = 3 },
 	on_blast = function() end,
 })
-
-minetest.register_on_player_hpchange(function(player, hp_change, reason)
-	if minetest.check_player_privs(player, "server") then
-		return math.max(hp_change, 0)
-	end
-	return hp_change
-end, true)
