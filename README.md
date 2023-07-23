@@ -11,7 +11,7 @@ gives the player nodes which should be unbreakable
 
 LICENSE:
 
-CODE: AGPL
+CODE: LGPL
 
 MEDIA:
 * boomstick_stick.png CC0 - thanks FrostRanger!
